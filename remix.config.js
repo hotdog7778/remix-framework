@@ -1,3 +1,8 @@
+/*
+ * 빌드와 개발시 사용하는 설정값
+ * 배포방식을 변경시 값을 많이 변경할 가능성이 높음
+ */
+
 /** @type {import('@remix-run/dev').AppConfig} */
 module.exports = {
   serverBuildTarget: "vercel",
